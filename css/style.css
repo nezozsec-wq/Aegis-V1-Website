@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: #0b0f19;
+    color: white;
+}
+
+
+/* NAVBAR */
+
+header {
+    width: 100%;
+    padding: 20px 50px;
+    background: #080b12;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.brand {
+    font-size: 28px;
+    color: #4da6ff;
+}
+
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+
+.links a:hover {
+    color: #4da6ff;
+}
+
+
+
+
+
+/* HERO */
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+.hero h1 {
+    font-size: 70px;
+    color: #4da6ff;
+}
+
+
+.hero h2 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+.hero p {
+    max-width: 700px;
+    margin: 25px auto;
+    color: #c7c7c7;
+    font-size: 18px;
+}
+
+
+
+
+/* BUTTONS */
+
+.buttons {
+    margin-top: 40px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.primary {
+    background: #4da6ff;
+    color: black;
+}
+
+
+.secondary {
+    border: 2px solid #4da6ff;
+    color: white;
+}
+
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* CARDS */
+
+.features {
+    padding: 40px 30px;
+    text-align: center;
+}
+
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+.card {
+    background: #151b2b;
+    width: 260px;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #263247;
+    transition: 0.3s;
+    min-height: 180px;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+    border-color: #4da6ff;
+}
+
+
+
+.card h3 {
+    color: #4da6ff;
+    margin-bottom: 15px;
+}
+
+
+
+.card p {
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* ABOUT */
+
+.about {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    color: #cccccc;
+    line-height: 1.7;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #080b12;
+    color: #888;
+}
+
+.privacy-card {
+    margin: 40px auto;
+    max-width: 700px;
+    width: 90%;
+    text-align: left;
+}
+
+.terms-card {
+    margin: 40px auto;
+    max-width: 700px;
+    width: 90%;
+    text-align: left;
+}
